@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Héctor Venero - Desarrollador de Software</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="js/contacto.js" defer></script>
+
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Héctor Venero</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a class="hover:underline" href="#about">Sobre Mí</a></li>
+                    <li><a class="hover:underline" href="#skills">Aptitudes</a></li>
+                    <li><a class="hover:underline" href="#experience">Experiencia</a></li>
+                    <li><a class="hover:underline" href="#portfolio">Portafolio</a></li>
+                    <li><a class="hover:underline" href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-4">
+        <section id="about" class="mb-8">
+            <div class="bg-white p-6 rounded shadow">
+                <div class="flex flex-col md:flex-row items-center">
+                    <img src="imgs/Profile2.png" alt="Héctor Venero" class="rounded-full mb-4 md:mb-0 md:mr-6" style="width: 200px; height: 200px;">
+                    <div>
+                        <h2 class="text-2xl font-bold mb-2">Héctor Venero</h2>
+                        <p class="text-gray-700">Software Developer en Global Hitss Cono Sur</p>
+                        <p class="text-gray-700">Buenos Aires, Provincia de Buenos Aires, Argentina</p>
+                    </div>
+                </div>
+                <p class="mt-4 text-gray-700">
+                    Soy desarrollador de software apasionado por crear soluciones digitales. Me especializo en diseño de páginas web modernas y funcionales, ayudando a empresas a destacar en el mercado digital.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Aptitudes Principales</h2>
+            <div class="bg-white p-6 rounded shadow">
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>Diseño y desarrollo web responsivo</li>
+                    <li>GitLab</li>
+                    <li>Oracle Database</li>
+                    <li>Infraestructura de software</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="experience" class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Experiencia</h2>
+            <div class="bg-white p-6 rounded shadow">
+                <div class="mb-4">
+                    <h3 class="text-xl font-bold">Global Hitss Cono Sur</h3>
+                    <p class="text-gray-700">Software Developer</p>
+                    <p class="text-gray-700">diciembre de 2023 - Presente</p>
+                    <p class="text-gray-700">Desarrollador Backend de ClaroVideo</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Portafolio</h2>
+            <div class="bg-white p-6 rounded shadow">
+                <p class="text-gray-700">
+                    Aquí se muestran algunos proyectos destacados que demuestran mi capacidad para diseñar y desarrollar páginas web modernas y efectivas.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+                    <div class="bg-gray-200 p-4 rounded shadow">
+                        <img src="imgs/Ejemplo1_portafolio.png" alt="Proyecto 1" class="mb-2 rounded">
+                        <h3 class="text-lg font-bold">Proyecto 1</h3>
+                        <p class="text-gray-700">Descripción breve del proyecto.</p>
+                    </div>
+                    <div class="bg-gray-200 p-4 rounded shadow">
+                        <img src="imgs/Ejemplo2_portafolio.png" alt="Proyecto 2" class="mb-2 rounded">
+                        <h3 class="text-lg font-bold">Proyecto 2</h3>
+                        <p class="text-gray-700">Descripción breve del proyecto.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contenedor para la sección de contacto -->
+        <div id="contact-container"></div>
+    </main>
+
+    <footer class="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-4 mt-8 text-center">
+        <p>&copy; 2025 Héctor Venero. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
