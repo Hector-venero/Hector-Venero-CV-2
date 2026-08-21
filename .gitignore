@@ -86,4 +86,4 @@ Thumbs.db
 .idea/
 
 # Otros
-package-lock.json
+/package-lock.json
