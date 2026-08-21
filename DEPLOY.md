@@ -7,9 +7,9 @@ tecnologías y en qué cuentas quedó todo, para retomar sin perder contexto.
 
 Reconstrucción completa del sitio personal, de "CV online" a landing de
 servicios freelance (desarrollo web, apps mobile, diseño de software) con
-portafolio real. El sitio viejo (Firebase Hosting + Cloud Function) sigue
-existiendo en la raíz del repo pero **ya no se usa** — la app nueva vive en
-`web/` y es la que está publicada.
+portafolio real. El sitio viejo (Firebase Hosting + Cloud Function) ya se
+retiró del repo — la app nueva vive en `web/` y es la única que está
+publicada.
 
 ## Stack
 
@@ -77,7 +77,8 @@ proyecto (dominio, variables de entorno nuevas, etc.).
 
 ## Nota de seguridad pendiente (no relacionada a este rebuild)
 
-El sitio viejo en la raíz del repo (`functions/index.js`) tiene una
-contraseña de aplicación de Gmail hardcodeada y commiteada al historial de
-git. Sigue sin usarse en el sitio nuevo, pero conviene revocar esa
-contraseña de aplicación en la cuenta de Google si todavía no se hizo.
+El código viejo (`functions/index.js`, ya borrado del repo) tenía una
+contraseña de aplicación de Gmail hardcodeada. Borrar el archivo **no la
+elimina del historial de git** — sigue visible en commits viejos en
+GitHub. Si todavía no se rotó esa contraseña de aplicación en la cuenta de
+Google, sigue pendiente.
