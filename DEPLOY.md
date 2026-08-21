@@ -75,10 +75,10 @@ proyecto (dominio, variables de entorno nuevas, etc.).
 - Terminar de confirmar/ampliar la lista de skills, sobre todo stack
   mobile (`web/src/content/skills.ts`).
 
-## Nota de seguridad pendiente (no relacionada a este rebuild)
+## Nota de seguridad (resuelta)
 
 El código viejo (`functions/index.js`, ya borrado del repo) tenía una
-contraseña de aplicación de Gmail hardcodeada. Borrar el archivo **no la
-elimina del historial de git** — sigue visible en commits viejos en
-GitHub. Si todavía no se rotó esa contraseña de aplicación en la cuenta de
-Google, sigue pendiente.
+contraseña de aplicación de Gmail hardcodeada. Sigue visible en commits
+viejos del historial de git (borrar el archivo no la elimina de ahí), pero
+la contraseña en sí **ya fue revocada** desde el gestor de contraseñas de
+aplicación de Google (2026-08-21) — quedó inservible.
