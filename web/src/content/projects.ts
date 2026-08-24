@@ -23,4 +23,13 @@ export const projects: Project[] = [
     status: "prototipo",
     image: "/images/projects/campolink/publicar-carga.jpg",
   },
+  {
+    slug: "madelein-monzon-inmobiliaria",
+    title: "Sitio Inmobiliario — Madelein Monzón",
+    description:
+      "Sitio web para una martillera y corredora pública en Buenos Aires, con catálogo de propiedades filtrable por operación y barrio, formulario de contacto y contacto directo por WhatsApp. Stack: Next.js, Firebase (almacenamiento de imágenes).",
+    status: "produccion",
+    image: "/images/projects/madelein-monzon/cover.png",
+    link: "https://www.madeleinmonzon.com.ar/",
+  },
 ];
