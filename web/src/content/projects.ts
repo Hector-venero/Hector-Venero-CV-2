@@ -19,9 +19,10 @@ export const projects: Project[] = [
     slug: "campolink",
     title: "CampoLink — Marketplace de Fletes Agropecuarios",
     description:
-      "App mobile que conecta productores del campo que necesitan trasladar mercadería con transportistas que viajan con capacidad ociosa, para reducir la ineficiencia del mercado de fletes agropecuarios en Argentina. En desarrollo activo: autenticación, perfiles de transportista con documentación validada, publicación de rutas y solicitudes de carga, chat y negociación con confirmación de flete por ambas partes, y sistema de calificaciones. Stack: Flutter (mobile), Go + Gin (backend), PostgreSQL, MinIO.",
-    status: "prototipo",
+      "App mobile que conecta productores del campo que necesitan trasladar mercadería con transportistas que viajan con capacidad ociosa, para reducir la ineficiencia del mercado de fletes agropecuarios en Argentina. Autenticación, perfiles de transportista con documentación validada, publicación de rutas y solicitudes de carga, chat y negociación con confirmación de flete por ambas partes, y sistema de calificaciones. Stack: Flutter (mobile), Go + Gin (backend), PostgreSQL, MinIO.",
+    status: "produccion",
     image: "/images/projects/campolink/publicar-carga.jpg",
+    link: "https://campolinkagro.com.ar/",
   },
   {
     slug: "madelein-monzon-inmobiliaria",
